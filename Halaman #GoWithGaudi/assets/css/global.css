@@ -1,0 +1,205 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  section {
+    position: relative;
+    width: 1300px;
+    height: 2100px;
+    /*background-color: bisque;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-top: 50px;*/
+  }
+
+  section .left{
+    width: 10%;
+    height: 100%;
+    background-color: red;
+    float: left;
+  }
+  
+  section .middle{
+    width: 35%;
+    height: 100%;
+    float: left;
+    background-color: yellow;
+    padding-left: 25px;
+  }
+
+  section .right {
+    width: 55%;
+    height: 100%;
+    float: left;
+    /*background-color: green;*/
+    margin-right: -25px;
+  }
+
+  .special h1 {
+    font-family: "Josefin Sans";
+    font-size: 100px;
+    text-align: center;
+    background-color: #FFDC74;
+  }
+
+  .wow_container {
+    position: relative;
+    font-family: Josefin Sans;
+  }
+  
+  .text-block {
+    position: absolute;
+    right: 40vw;
+    top: 5vw;
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+  }
+
+  .main_container {
+    position: relative;
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .main_container.fourinarow .card {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    margin-right: 33px;
+    margin-bottom: 35px;
+    float: left;
+    /*background-color: brown;*/
+    border-radius: 10px;
+  }
+
+  .main_container.fourinarow .card:nth-child(4n) {
+    margin-right: 0px;
+  }
+
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+    border-radius: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*NAVBAR*/
+  .promo-bar {
+    text-align: center;
+    background-color: #FFDC74;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: "Josefin Sans";
+    top:0;
+    left:0;
+}
+
+.navbar {
+    text-align: center;
+    padding: 0px 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-top: 3px solid #FFDC74;
+    border-bottom: 3px solid #FFDC74;
+}
+
+.navbar a {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-family: "Josefin Sans";
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #FFDC74;
+}
+
+.logo1 {
+  padding-left: 46%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-family: "Josefin Sans";
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.col-md-4 {
+  text-align: left;
+  width: calc(33.33% - 20px);
+  font-family: "Josefin Sans";
+}
+
+.col-md-4 p {
+  line-height: 25px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+}

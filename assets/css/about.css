@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/josefin-sans');
+
+*{
+    margin: 1;
+    padding: 1;
+    font-family: 'Josefin Sans';
+  }
+  
+.promo-bar {
+    text-align: center;
+    background-color: #FFDC74;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top:0;
+    left:0;
+}
+
+.logo1 {
+  padding-left: 45%;
+}
+.navbar {
+    text-align: center;
+    padding: 0px 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-top: 3px solid #FFDC74;
+    border-bottom: 3px solid #FFDC74;
+}
+.navbar a {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #FFDC74;
+}
+
+  .img_btm_card {
+    position: relative;
+    width: 23%;
+    height: 98%;
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  .about-us {
+    align-items: center;
+    background-color: white;  
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 1602px;
+    overflow: hidden;
+    width: 1920px;
+  }
+  
+  .title {
+    color: black;
+    font-family: var(--font-family-josefin_sans);
+    font-weight:bolder;
+    font-size: 1cm;
+    margin-top: 102px;
+    text-align: center;
+  }
+  
+  .fashion-should-enhan {
+    color: transparent;
+    font-family: var(--font-family-josefin_sans);
+    font-size:small;
+    font-weight: 400;
+    letter-spacing: 0,14px;
+    line-height: 20px;
+    min-height: 549px;
+    width: 581px;
+  }
+
+  section {
+    position: relative;
+    width: 1300px;
+    height: 800px;
+    /*background-color: bisque;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+  }
+
+  section .left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-right: 50px;
+    line-height: 1.9;
+  }
+
+  section .right {
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-right: -50px;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .col-md-4 {
+    text-align: left;
+    width: calc(33.33% - 20px);
+  }
+  
+  .col-md-4 p {
+    line-height: 25px;
+    text-align: left;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #333;
+  }
+  

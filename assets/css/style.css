@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/josefin-sans');
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Josefin Sans', sans-serif
+
+}
+.logo1 img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header img {
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;   
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.promo-bar {
+    text-align: center;
+    background-color: #FFDC74;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top:0;
+    left:0;
+}
+
+
+.navbar {
+    text-align: center;
+    padding: 0px 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-top: 3px solid #FFDC74;
+    border-bottom: 3px solid #FFDC74;
+}
+
+.navbar a {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #FFDC74;
+}
+
+.shopnow{
+    padding-left: 42vw;
+    padding-right: 30vw;
+}
+.shop-btn {
+    text-align: center;
+    padding: 15px 17px;
+    border-radius: 30px;
+    border: 2px solid #FFDC74;
+    background-color: transparent;
+    color: #000000;
+    transition: 0.4s;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+      }
+
+.shop-btn:hover {
+    background-color: #FFDC74;
+    color: white;
+}
+
+.container{
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+    margin-left: auto;
+    z-index: -1;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+
+  .arrival {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .col-md-4 {
+    text-align: left;
+    width: calc(33.33% - 20px);
+  }
+
+  .col-md-4 p {
+    line-height: 25px;
+    text-align: left;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #333;
+  }
